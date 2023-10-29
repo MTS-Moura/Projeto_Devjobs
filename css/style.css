@@ -1,0 +1,145 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(../img/FundoPrincipal.png);
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    /* Ajuste da imagem 20 pxs a esquerda */
+}
+
+.navbar-custom {
+    background-color: #06010fd8;
+
+    /* Cor de fundo da navbar */
+}
+
+.navbar-nav {
+    display: block;
+    align-items: center;
+    width: 100%;
+    margin-left: 28%;
+    /* Estiliza a barra de navegação, ajustando a largura, alinhamento e margem esquerda */
+  }
+  
+.navbar-nav .nav-item {
+    white-space: nowrap;
+    margin-right: 80px;
+/* Define a margem direita para os itens da barra de navegação para espaçamento */
+}
+
+.navbar-nav li a {
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    /* estiliza os itens da navbar: "vagas, empresa, candidato" */
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:active {
+  text-decoration: none;
+  color: rgba(34, 19, 236, 0.281);
+    /* Estiliza os links quando hover ou ativos, alterando a cor */
+}
+
+.btn {
+    margin-left: 60%;
+    /* ajusta a distância do botão */
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 45px;
+    width: 573px;
+    height: 311px;
+    flex-shrink: 0;
+    /* define a posição, quebra de linhas do titulo */
+}
+
+.titulo h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 50px;
+    margin-top: 170px;
+    /* define a fonte, tamanho do titulo */
+}
+
+
+
+.form-control {
+    display: inline-flex;
+    margin-top: 60px;
+    max-width: 250px;
+    margin-left: 45px; /* Ajuste o valor de margem para alinhar os elementos conforme necessário */
+}
+
+.custom-btn {
+    display: inline-flex;
+    margin-top: 60px;
+    max-width: 200px;
+    margin-left: 05px; /* Ajuste o valor de margem para alinhar os elementos conforme necessário */
+}
+
+.cartoon {
+    margin-top: -390px;
+    margin-left: 650px;
+    width: 450px;
+    height: auto;
+}
+
+.info {
+    width: 100%;
+    border: 2px solid #999;
+    display: flex;
+    justify-content: center;
+        width: 100%;
+        padding: 20px; /* Adiciona preenchimento interno para a .info */
+}
+
+.section-lupa, .section-usuario, .section-estrela {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.img-descricao {
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+.text {
+    display: block;
+}
+
+h4 {
+    color: #FFF;
+    font-family: Prompt;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+
+}
+
+p {
+    color: #8B8787;
+    text-align: center;
+    font-family: Rationale;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
